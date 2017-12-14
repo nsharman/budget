@@ -1,2 +1,3 @@
-# budget
-My budget helper
+#Budget
+
+My budget helper.
