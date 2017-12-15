@@ -4,6 +4,6 @@ var ReactDOM = require('react-dom');
 
 ReactDOM.render(
   //<App />,
-  <h1>Hello World! Yay</h1>,
+  <h1>Hello World!</h1>,
   document.getElementById('app')
 )

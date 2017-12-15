@@ -12,12 +12,12 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        loader: 'babel-loader'
+        loader: ['babel-loader', 'eslint-loader']
       }
     ]
   },
   output: {
-    filename: 'transformed.js',
+    filename: 'bundle.js',
     path: __dirname + '/build'
   },
   plugins: [HTMLWebpackPluginConfig]
